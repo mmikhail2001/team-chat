@@ -28,6 +28,7 @@ var (
 
 var (
 	// TODO: с бд нужно работать не так!
+	// test
 	db      = database.NewDatabase(MONGO_URI, MONGO_DATABASE)
 	handler = &websocket.EventHandler{}
 	conns   = websocket.NewConnections()
